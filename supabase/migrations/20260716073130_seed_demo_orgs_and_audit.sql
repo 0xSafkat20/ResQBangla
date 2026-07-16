@@ -1,5 +1,5 @@
 /*
-# NSDRMS Demo Data — Organizations & Audit Logs
+# National Smart Disaster Response — Demo Data: Organizations & Audit Logs
 
 Adds additional organizations and audit log entries for visualization.
 

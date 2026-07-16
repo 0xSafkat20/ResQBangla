@@ -33,7 +33,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
       <aside className={cn('fixed lg:sticky top-0 z-40 h-screen w-64 bg-secondary-900 text-white flex flex-col transition-transform duration-300 lg:translate-x-0', sidebarOpen ? 'translate-x-0' : '-translate-x-full')}>
         <div className="flex items-center gap-3 px-6 h-16 border-b border-secondary-800">
           <div className="h-10 w-10 rounded-xl bg-primary-600 flex items-center justify-center"><ShieldCheck className="h-6 w-6" /></div>
-          <div><p className="font-bold text-sm">NSDRMS</p><p className="text-xs text-secondary-400">National Smart Disaster Response</p></div>
+          <div><p className="font-bold text-sm">National Smart Disaster Response</p><p className="text-xs text-secondary-400">Admin Platform</p></div>
           <button className="ml-auto lg:hidden text-secondary-400" onClick={() => setSidebarOpen(false)}><X className="h-5 w-5" /></button>
         </div>
         <nav className="flex-1 overflow-y-auto py-4 px-3 space-y-1 scrollbar-none">
