@@ -29,7 +29,7 @@ export function RegisterPage() {
       <div className="space-y-6">
         <div>
           <h1 className="text-2xl font-bold text-secondary-900">Create your account</h1>
-          <p className="text-sm text-secondary-500 mt-1.5">Register to access the NSDRMS platform.</p>
+          <p className="text-sm text-secondary-500 mt-1.5">Register to access the National Smart Disaster Response platform.</p>
         </div>
         {error && (
           <div className="flex items-start gap-2.5 rounded-lg bg-danger-50 border border-danger-200 px-4 py-3 text-sm text-danger-700 animate-fade-in">

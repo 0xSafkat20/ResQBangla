@@ -28,7 +28,7 @@ export function LoginPage() {
     <AuthLayout>
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-secondary-900">Sign in to NSDRMS</h1>
+          <h1 className="text-2xl font-bold text-secondary-900">Sign in to National Smart Disaster Response</h1>
           <p className="text-sm text-secondary-500 mt-1.5">Enter your credentials to access the platform.</p>
         </div>
         {error && (

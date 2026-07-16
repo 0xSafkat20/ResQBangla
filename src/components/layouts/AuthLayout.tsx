@@ -9,7 +9,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
         <div className="relative flex flex-col justify-between p-12 text-white w-full">
           <div className="flex items-center gap-3">
             <div className="h-12 w-12 rounded-xl bg-white/10 backdrop-blur flex items-center justify-center border border-white/20"><ShieldCheck className="h-7 w-7" /></div>
-            <div><p className="text-lg font-bold">NSDRMS</p><p className="text-xs text-primary-200">National Smart Disaster Response</p></div>
+            <div><p className="text-lg font-bold">National Smart Disaster Response</p><p className="text-xs text-primary-200">Management System</p></div>
           </div>
           <div className="space-y-6 max-w-md">
             <h1 className="text-3xl font-bold leading-tight">Coordinated disaster response starts here.</h1>
